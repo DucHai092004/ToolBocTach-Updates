@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "tag": "v1.9.3",
+  "download_url": "https://github.com/DucHai092004/ToolBocTach-Updates/releases/download/v1.9.3/ToolBocTach-Setup.exe",
+  "sha256": "8829466248ee84dec5049345d2fdb092a62998f3349c62e385a8a996203d79de",
+  "release_notes": "# ToolBocTach V1.9.3\n\n## Thay đổi\n- Giữ cố định độ dày viền của các tab khi rê chuột.\n- Bỏ thay đổi viền 0 px sang 3 px khi hover, nguyên nhân làm thanh tab có cảm giác nhảy cục.\n- Giữ nguyên màu nền của tab đang chọn; hiệu ứng hover nhẹ không làm thay đổi kích thước bố cục.\n- Giữ nguyên dòng liên hệ `Liên hệ : 0393271507 / DucHai` và chức năng tính khối lượng phôi từ V1.9.1.\n\n## Cập nhật\n- Có thể cài đè lên phiên bản hiện có, không cần gỡ cài đặt.\n- Kênh cập nhật công khai không yêu cầu GitHub token hoặc đăng nhập.\n",
+  "published_at": "2026-10-29T06:51:54Z"
+}
