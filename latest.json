@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "tag": "v1.10.1",
-  "download_url": "https://github.com/DucHai092004/ToolBocTach-Updates/releases/download/v1.10.1/ToolBocTach-Setup.exe",
-  "sha256": "0f04baaa2e0e008b3de0e9eea42b13c02a6c77c885e9017a03b72ef857c8a460",
-  "release_notes": "# ToolBocTach V1.10.1 — UI & Assembly Hotfix\n\n- Cài đặt > Giao diện: Light/Dark toàn ứng dụng, lưu lựa chọn; sửa lỗi tab đang chọn khi hover và tương phản của bảng, nút, ô nhập, combo, update dialog.\n- Splash khởi động chọn ngẫu nhiên một trong chude1.png/chude2.png/chude3.png; tiến trình theo mốc khởi tạo, không cố tình làm chậm ứng dụng. Có thể thay ảnh trong %LOCALAPPDATA%\\ToolBocTach\\Splash qua nút Mở thư mục ảnh khởi động. Ba file gốc trong dự án hiện giống nhau; muốn thay đổi hình cần cung cấp ba ảnh khác nhau vào thư mục ảnh riêng. Không ghi đè file ảnh người dùng.\n- Viewer toàn Assembly .SLDASM (qua SolidWorks đang chạy) và chế độ xem Part; mesh thật ở đúng vị trí lắp ráp, chọn dòng BOM tô sáng các occurrence cùng mã/cấu hình và click mesh chọn BOM. Giới hạn 160.000 tam giác và 1.200 component duyệt mỗi lần; thông báo thiếu mesh hoặc giới hạn. Không sửa CAD, không chuyển configuration hoặc resolve lightweight tự động. Viewer chỉ để xem, không thay thế đo đạc/CAM.\n- Giữ importer/exporter và updater V1.10.0. STEP độc lập và các định dạng .asm/.asem của CAD khác chưa hỗ trợ.\n- Bộ cài chưa ký số Authenticode; sao lưu %LOCALAPPDATA%\\ToolBocTach trước khi nâng cấp. Chưa nghiệm thu trên máy sạch và Assembly lớn.\r\n",
-  "published_at": "2026-11-26T11:02:57Z"
+  "tag": "v1.10.2",
+  "download_url": "https://github.com/DucHai092004/ToolBocTach-Updates/releases/download/v1.10.2/ToolBocTach-Setup.exe",
+  "sha256": "6b579406e9798952ecc902b141068d09b23dda26a6ee3ff75ae019505f951aed",
+  "release_notes": "# ToolBocTach V1.10.2 — Excel Image Capture Hotfix\n\n- Ưu tiên ảnh preview lưu sẵn; nếu cần chụp viewport, đóng Part tạm ngay sau khi chụp, kể cả lỗi chụp hoặc mở file dở dang.\n- Phân biệt cửa sổ Part mở sẵn với dependency được Assembly nạp ngầm. Giữ tài liệu đã mở, tài liệu chưa lưu và Assembly nguồn. Không ghi CAD hay tự chuyển configuration.\n- Nếu không thể đóng/khôi phục tài liệu an toàn, cảnh báo và dừng mở Part để chụp; tiếp tục xuất BOM với ảnh có sẵn. Không thao tác SolidWorks trong khi xuất ảnh.\n- Kiểm thử 12 tình huống mô phỏng vòng đời cửa sổ, hồi quy xuất Excel có ảnh và nghiệp vụ. Kiểm thử viewport SolidWorks thật chưa chạy vì máy đang mở tài liệu có thay đổi chưa lưu; bộ test fixture đã bổ sung.\n- Bộ cài chưa ký số; chưa nghiệm thu cài đè trên máy sạch. Giữ nguyên tính năng V1.10.1 và dữ liệu người dùng.\n",
+  "published_at": "2026-11-26T11:18:07Z"
 }
